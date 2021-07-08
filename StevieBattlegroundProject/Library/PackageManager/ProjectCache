@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637611949046267833
-    m_Hash: 1192623332
+      ticks: 637613523987804279
+    m_Hash: 643299526
   m_LockFileStatus:
     m_FilePath: C:/Users/family/Documents/StevieBattleground/StevieBattlegroundProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637611949200536395
-    m_Hash: 3477326326
+      ticks: 637613523987884060
+    m_Hash: 4230618495
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -352,12 +352,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/Addressables.git
         revision: 409be64ae2451fbde6a6e3e6fb1d6b7a1aa9a18c
         path: 
-    - packageId: com.unity.cinemachine@2.6.3
+    - packageId: com.unity.cinemachine@2.6.5
       testable: 0
       isDirectDependency: 1
-      version: 2.6.3
+      version: 2.6.5
       source: 1
-      resolvedPath: C:\Users\family\Documents\StevieBattleground\StevieBattlegroundProject\Library\PackageCache\com.unity.cinemachine@2.6.3
+      resolvedPath: C:\Users\family\Documents\StevieBattleground\StevieBattlegroundProject\Library\PackageCache\com.unity.cinemachine@2.6.5
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -477,13 +477,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637364189870000000
+      datePublishedTicks: 637578244570000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/upm-package-cinemachine.git
-        revision: bec7fa48fa2d6e9e46243f24d3b1d62918a6b377
+        url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        revision: c12b97ec35ab5091c685e729b76980a69a6d39a1
         path: 
     - packageId: com.unity.collab-proxy@1.5.7
       testable: 0
@@ -3434,8 +3434,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
         - 1.0.3
         compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
         - 1.0.3
         verified: 1.0.3
       dependencies: []
@@ -3453,12 +3463,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637300096300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
         revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
     - packageId: com.unity.nuget.newtonsoft-json@2.0.0
